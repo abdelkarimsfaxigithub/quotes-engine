@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Proposition Commerciale</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 30px;
+      }
+      h1 {
+        color: #0045ad;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
+      .block {
+        margin-bottom: 20px;
+      }
+      .logo {
+        width: 120px;
+        height: auto;
+        display: block;
+        margin-left: 0;
+      }
+      .highlight {
+        color: green;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="{{ logo_url }}" alt="Logo" class="logo" />
+
+    <h1>Proposition Commerciale</h1>
+
+    <div class="block">
+      <strong>Numéro d'opportunité :</strong> {{ opportunity_number }}<br />
+      <strong>Client :</strong> {{ client_name }}<br />
+      <strong>Date de création :</strong> {{ created_at }}
+    </div>
+
+    <div class="block">
+      <strong>Date de début :</strong> {{ start_date }}<br />
+      <strong>Date de fin :</strong> {{ end_date }}
+    </div>
+
+    <div class="block">
+      <strong>Type de garantie :</strong> {{ guarantee_type }}<br />
+      <strong>Destination :</strong> {{ destination }}<br />
+      <strong>Type de travaux :</strong> {{ work_type }}
+    </div>
+
+    <div class="block">
+      <strong>Bâtiment existant :</strong> {{ has_existing_building }}<br />
+      <strong>Client VIP :</strong> {{ is_vip_client }}<br />
+      <strong>Souhaite RCMO :</strong> {{ wants_rcmo }}
+    </div>
+
+    <div class="block">
+      <strong>Coût de construction :</strong> {{ construction_cost }} €<br />
+      <strong>Tarif proposé :</strong> <span class="highlight">{{ proposed_price }} €</span>
+    </div>
+  </body>
+</html>

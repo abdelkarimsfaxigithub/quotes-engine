@@ -1,0 +1,68 @@
+# ------------------------------
+# PYTHON / DJANGO (backend)
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+ENV/
+.mypy_cache/
+.pytest_cache/
+.DS_Store
+coverage/
+htmlcov/
+local_settings.py
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Django static/media (if generated locally)
+staticfiles/
+media/
+
+# ------------------------------
+# NODE / FRONTEND (React, Vite, etc.)
+# ------------------------------
+node_modules/
+dist/
+build/
+.npm/
+.yarn/
+.pnp.*
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Frontend tooling caches
+.cache/
+.next/
+out/
+vite.config.ts
+*.log
+
+# ------------------------------
+# DOCKER / COMPOSE / GLOBAL
+# ------------------------------
+*.pid
+*.tar
+*.gz
+*.bak
+*.swp
+*.swo
+*.orig
+docker-compose.override.yml
+
+# Mac & Linux system files
+.DS_Store
+Thumbs.db
