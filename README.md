@@ -4,6 +4,7 @@
 
 ## 📁 Project Structure
 
+```bash
 quotes-engine/
 ├── backend/ # Django REST API
 │ ├── manage.py
@@ -15,7 +16,7 @@ quotes-engine/
 │ └── Dockerfile
 ├── docker-compose.yml # Compose file (root level)
 └── README.md # This file
-
+```
 
 ## 🚀 Installation & Launch
 
@@ -46,7 +47,7 @@ Username: admin
 Password: adminpass
 
 # 🎬 Demo
-You can watch a demonstration video of the app’s features here: Demo [Video Link]()
+You can watch a demonstration video of the app’s features here: Demo [Video Link](https://drive.google.com/file/d/1NVKjQfqynDWL453yFz_6Hh7ynf3c42ar/view?usp=drive_link)
 
 # ⚙️ Technologies Used
 
